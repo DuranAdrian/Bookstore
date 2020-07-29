@@ -45,24 +45,3 @@ def update(id, title, author, year, isbn):
     conn.close()
 
 connect()
-print(viewAll())
-print()
-# # insert("My Title", "My Author", 2020, 123456789)
-# print(viewAll())
-# print()
-# print(search(year = 2020))
-# insert(title="The Sea", author = "John Smith", year = 1981, isbn = 987654321)
-# print(viewAll())
-# print()
-# delete(id=5)
-# print()
-# print(viewAll())
-# update(
-#     id = 3,
-#     title = "Hunger Games",
-#     author = "Johana",
-#     year = 1990,
-#     isbn=31857823
-# )
-# print()
-# print(viewAll())
